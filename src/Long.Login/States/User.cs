@@ -5,7 +5,7 @@ namespace Long.Login.States
 {
     public sealed class User
     {
-        private const int LOGIN_EXP_SECONDS = 15;
+        private const int LOGIN_EXP_SECONDS = 5000;
         private readonly TimeOut loginTimeOut;
 
         public User(LoginClient client, GameAccount gameAccount, Realm realm)

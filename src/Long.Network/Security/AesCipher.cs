@@ -11,6 +11,8 @@ namespace Long.Network.Security
         private Aes aes;
         private ICryptoTransform mEncryptor;
         private ICryptoTransform mDecryptor;
+        private byte[] mEncryptRegister;
+        private byte[] mDecryptRegister;
 
         private byte[] mEncryptIv;
         private byte[] mDecryptIv;
@@ -42,8 +44,7 @@ namespace Long.Network.Security
             cipher.mEncryptIv = Convert.FromBase64String(eIv);
             cipher.mDecryptIv = Convert.FromBase64String(dIv);
 
-            cipher.mEncryptor = cipher.aes.CreateEncryptor(cipher.aes.Key, cipher.mEncryptIv);
-            cipher.mDecryptor = cipher.aes.CreateDecryptor(cipher.aes.Key, cipher.mDecryptIv);
+            cipher.ResetStreams();
             return cipher;
         }
 
@@ -73,38 +74,56 @@ namespace Long.Network.Security
                 iv.CopyTo(mDecryptIv, 0);
             }
 
-            mEncryptor = aes.CreateEncryptor(aes.Key, mEncryptIv);
-            mDecryptor = aes.CreateDecryptor(aes.Key, mDecryptIv);
+            ResetStreams();
+        }
+
+        /// <summary>
+        ///     CFB-8 by hand, each direction keeps its register for the whole connection. TCP can join two packets
+        ///     in one receive or split one, so going back to the IV on every call breaks the packet after the first.
+        /// </summary>
+        private void ResetStreams()
+        {
+            using Aes block = Aes.Create();
+            block.Mode = CipherMode.ECB;
+            block.Padding = PaddingMode.None;
+            block.Key = aes.Key;
+
+            mEncryptor = block.CreateEncryptor();
+            mDecryptor = block.CreateEncryptor();
+            mEncryptRegister = (byte[])mEncryptIv.Clone();
+            mDecryptRegister = (byte[])mDecryptIv.Clone();
         }
 
         /// <inheritdoc />
         public void Decrypt(Span<byte> src, Span<byte> dst)
         {
-            using MemoryStream memory = new();
-            using CryptoStream stream = new(memory, mDecryptor, CryptoStreamMode.Write);
-            stream.Write(src);
-            stream.FlushFinalBlock();
-
-            byte[] decrypted = memory.ToArray();
-            for (int i = 0; i < decrypted.Length; i++)
+            byte[] block = new byte[mDecryptRegister.Length];
+            for (var i = 0; i < src.Length; i++)
             {
-                dst[i] = decrypted[i];
+                mDecryptor.TransformBlock(mDecryptRegister, 0, mDecryptRegister.Length, block, 0);
+                byte cipherByte = src[i];
+                dst[i] = (byte)(cipherByte ^ block[0]);
+                Shift(mDecryptRegister, cipherByte);
             }
         }
 
         /// <inheritdoc />
         public void Encrypt(Span<byte> src, Span<byte> dst)
         {
-            using var memory = new MemoryStream();
-            using var stream = new CryptoStream(memory, mEncryptor, CryptoStreamMode.Write);
-            stream.Write(src);
-            stream.FlushFinalBlock();
-
-            byte[] encrypted = memory.ToArray();
-            for (int i = 0; i < encrypted.Length; i++)
+            byte[] block = new byte[mEncryptRegister.Length];
+            for (var i = 0; i < src.Length; i++)
             {
-                dst[i] = encrypted[i];
+                mEncryptor.TransformBlock(mEncryptRegister, 0, mEncryptRegister.Length, block, 0);
+                var cipherByte = (byte)(src[i] ^ block[0]);
+                dst[i] = cipherByte;
+                Shift(mEncryptRegister, cipherByte);
             }
+        }
+
+        private static void Shift(byte[] register, byte value)
+        {
+            Buffer.BlockCopy(register, 1, register, 0, register.Length - 1);
+            register[^1] = value;
         }
 
         public class Settings

@@ -12,7 +12,7 @@ namespace Long.Network.Security
 
         private readonly Cast5Engine cast5Engine;
 
-        private const string DefaultSeed = "C238xs65pjy7HU9Q";
+        private const string DefaultSeed = "MW3PeM8ZGUbLopBZ";
 
         public Cast5Cipher(string seed = DefaultSeed)
         {

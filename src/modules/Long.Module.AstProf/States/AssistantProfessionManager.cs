@@ -181,6 +181,13 @@ namespace Long.Module.AstProf.States
 
         public int GetPower(AstProfType type, int level)
         {
+            if (level <= 0)
+            {
+                return 0;
+            }
+
+            int typeIndex = (int)type - 1;
+
             switch (type)
             {
                 case AstProfType.ChiMaster:
@@ -190,8 +197,21 @@ namespace Long.Module.AstProf.States
                 case AstProfType.Wrangler:
                 case AstProfType.MartialArtist:
                 case AstProfType.Warlock:
-                    return Power[(int)type - 1, level];
-                default: return 0;
+                    {
+                        if (typeIndex < 0 || typeIndex >= Power.GetLength(0))
+                        {
+                            return 0;
+                        }
+
+                        if (level >= Power.GetLength(1))
+                        {
+                            level = Power.GetLength(1) - 1;
+                        }
+
+                        return Power[typeIndex, level];
+                    }
+                default:
+                    return 0;
             }
         }
 

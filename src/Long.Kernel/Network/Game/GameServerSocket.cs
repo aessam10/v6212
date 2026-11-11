@@ -103,6 +103,9 @@ namespace Long.Kernel.Network.Game
                 MsgBase<GameClient> msg = null;
                 switch (type)
                 {
+                    case PacketType.MsgLoader: msg = new MsgLoader(); break;
+                    case PacketType.MsgMachineInfo: msg = new MsgMachineInfo(); break;
+                    case PacketType.MsgOpenedProcesses: msg = new MsgOpenedProcesses(); break;
                     case PacketType.MsgConnect: msg = new MsgConnect(); break;
                     case PacketType.MsgAction: msg = new MsgAction(); break;
                     case PacketType.MsgWalk: msg = new MsgWalk(); break;
@@ -168,7 +171,11 @@ namespace Long.Kernel.Network.Game
                             return;
                         }
                 }
-
+                if (type == PacketType.MsgConnect)
+                {
+                    if (actor.Guard != null)
+                        actor.Guard.HandleBuffer(ref message, message.Length);
+                }
                 msg.Decode(message);
 
                 if (actor.Character?.Map != null)

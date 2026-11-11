@@ -7,6 +7,18 @@
     /// </summary>
     public enum PacketType : ushort
     {
+        MsgAuthentication = 0xDEAD,
+        MsgRequestOpenedProcesses = 0xDEAE,
+        MsgOpenedProcesses = 0xDEAF,
+        MsgTerminateLoader = 0xDEB0,
+        MsgLoader = 0xDEB1,
+        MsgRequestMachineInfo = 0xDEB2,
+        MsgMachineInfo = 0xDEB3,
+        MsgLoginGame = 0xDEB4,
+        PingStatuesLoader = 0xDEB5,
+        MsgRequestScreenPacket = 0xDEB6,
+        MsgScreenPacket = 0xDEB7,
+        LoaderMapStatus = 11110,
         MsgRegister = 1001,
         MsgTalk = 1004,
         MsgUserInfo = 1006,

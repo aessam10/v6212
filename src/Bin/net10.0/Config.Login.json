@@ -2,7 +2,7 @@
   "Database": {
     "Hostname": "localhost",
     "Username": "root",
-    "Password": "",
+    "Password": "123456789",
     "Schema": "account_cq",
     "Port": 3306
   },

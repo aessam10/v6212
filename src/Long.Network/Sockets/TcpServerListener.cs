@@ -24,6 +24,7 @@ namespace Long.Network.Sockets
         private readonly Semaphore acceptanceSemaphore;
         private readonly ConcurrentStack<Memory<byte>> bufferPool;
         private readonly bool enableKeyExchange;
+        private readonly int bufferSize;
         private readonly int expectedFooterLength;
         private readonly string expectedFooter;
         private readonly TaskFactory receiveTasks;
@@ -68,6 +69,7 @@ namespace Long.Network.Sockets
             acceptanceSemaphore = new Semaphore(maxConn, maxConn);
             bufferPool = new ConcurrentStack<Memory<byte>>();
             enableKeyExchange = exchange;
+            this.bufferSize = bufferSize;
             expectedFooter = footer;
             expectedFooterLength = expectedFooter?.Length ?? 0;
             receiveTasks = new TaskFactory(shutdownToken.Token);
@@ -115,16 +117,25 @@ namespace Long.Network.Sockets
         /// <returns>Returns a new task for accepting new connections.</returns>
         public async Task StartAsync(int port, string address = "0.0.0.0", int backlog = 100)
         {
-            socket.Bind(new IPEndPoint(IPAddress.Parse(address), port));
-            socket.Listen(backlog);
+            try
+            {
+                socket.Bind(new IPEndPoint(IPAddress.Parse(address), port));
+                socket.Listen(backlog);
 
-            _ = packetProcessor.StartAsync(shutdownToken.Token);
-            logger.Information("Listening on {0}:{1}", address, port);
+                _ = packetProcessor.StartAsync(shutdownToken.Token);
+                logger.Information("Listening on {0}:{1}", address, port);
 
-            // Start the background registry cleaner and accepting clients
-            await registry.StartAsync(shutdownToken.Token);
-            _ = packetProcessor.StartAsync(shutdownToken.Token);
-            await AcceptingAsync();
+                // Start the background registry cleaner and accepting clients
+                await registry.StartAsync(shutdownToken.Token);
+                _ = packetProcessor.StartAsync(shutdownToken.Token);
+                await AcceptingAsync();
+            }
+            catch (Exception ex)
+            {
+                // the callers start this with "_ =", without this a failed Bind closed the port with no message
+                logger.Fatal(ex, "Listener {0}:{1} stopped. {2}", address, port, ex.Message);
+                throw;
+            }
         }
 
         /// <summary>
@@ -140,23 +151,38 @@ namespace Long.Network.Sockets
                 // Block if the maximum connections has been reached. Holds all connection
                 // attempts in the backlog of the server socket until a client disconnects
                 // and a new client can be accepted. Check shutdown every 5 seconds.
-                if (acceptanceSemaphore.WaitOne(TimeSpan.FromSeconds(5)))
+                if (!acceptanceSemaphore.WaitOne(TimeSpan.FromSeconds(5)))
+                {
+                    continue;
+                }
+
+                // one bad connection (a port checker, a reset before accept) used to throw out of this loop,
+                // the port stayed bound but nobody was accepted any more
+                Socket accepted = null;
+                string registeredIp = null;
+                Memory<byte> buffer = default;
+                bool started = false;
+                try
                 {
                     // Pop a pre-allocated buffer and check the connection
-                    Socket socket = await this.socket.AcceptAsync();
-                    var ip = (socket.RemoteEndPoint as IPEndPoint).Address.MapToIPv4().ToString();
+                    accepted = await this.socket.AcceptAsync(shutdownToken.Token);
+                    var ip = (accepted.RemoteEndPoint as IPEndPoint).Address.MapToIPv4().ToString();
                     var blockingReason = registry.AddActiveClient(ip);
                     if (blockingReason != TcpServerRegistry.BlockReason.None)
                     {
-                        await socket.DisconnectAsync(false);
                         logger.Warning("Login denied due to [{Reason}] login attempts [IP: {Ip}]", blockingReason, ip);
-                        acceptanceSemaphore.Release();
                         continue;
                     }
 
+                    registeredIp = ip;
+
                     // Construct the client before receiving data
-                    bufferPool.TryPop(out Memory<byte> buffer);
-                    TActor actor = await AcceptedAsync(socket, buffer);
+                    if (!bufferPool.TryPop(out buffer))
+                    {
+                        buffer = new Memory<byte>(new byte[bufferSize]);
+                    }
+
+                    TActor actor = await AcceptedAsync(accepted, buffer);
 
                     // Start receiving data from the client connection
                     if (enableKeyExchange)
@@ -172,6 +198,41 @@ namespace Long.Network.Sockets
                         ConfiguredTaskAwaitable<Task> task = receiveTasks
                                                              .StartNew(ReceivingAsync, actor, shutdownToken.Token)
                                                              .ConfigureAwait(false);
+                    }
+
+                    started = true;
+                }
+                catch (OperationCanceledException) when (shutdownToken.IsCancellationRequested)
+                {
+                }
+                catch (SocketException ex) when (ex.SocketErrorCode is SocketError.OperationAborted
+                                                     or SocketError.NotSocket
+                                                     or SocketError.ConnectionReset
+                                                     or SocketError.ConnectionAborted
+                                                     or SocketError.NotConnected)
+                {
+                    // the client left before or during accept, keep accepting
+                }
+                catch (Exception ex)
+                {
+                    logger.Error(ex, "Accept error. {0}", ex.Message);
+                }
+                finally
+                {
+                    if (!started)
+                    {
+                        if (registeredIp != null)
+                        {
+                            registry.RemoveActiveClient(registeredIp);
+                        }
+
+                        if (!buffer.IsEmpty)
+                        {
+                            bufferPool.Push(buffer);
+                        }
+
+                        accepted?.Dispose();
+                        acceptanceSemaphore.Release();
                     }
                 }
             }

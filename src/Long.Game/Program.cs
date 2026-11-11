@@ -34,7 +34,7 @@ namespace Long.Game
             Console.WriteLine($"\t\tVersion: {Version}");
             Console.WriteLine("\tSome Rights Reserved");
             Console.WriteLine();
-
+            Long.Kernel.Security.MsgLoader.MsgGuardShield.Load();
             Logger.Initialize("CQServer");
 
             logger.Information("Logger initialized with success!");

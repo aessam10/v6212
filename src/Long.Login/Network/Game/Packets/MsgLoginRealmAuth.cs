@@ -58,7 +58,8 @@ namespace Long.Login.Network.Game.Packets
             //    return;
             //}
 #else
-            if (!realmData.GameIPAddress.Equals(client.IpAddress))
+            // GameIPAddress is for the players, the link of the servers comes from RpcIPAddress
+            if (!string.Equals(realmData.RpcIPAddress, client.IpAddress))
             {
                 logger.Warning("Realm {0} is not allowed to connect from {1}.", realmID, client.IpAddress);
                 await RejectConnectionAsync(client, MsgLoginRealmAuthEx<GameClient>.ResponseCode.InvalidAddress);

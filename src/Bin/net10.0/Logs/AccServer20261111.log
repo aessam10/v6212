@@ -1,0 +1,1558 @@
+01:36:23.956 [Information] (2) Logger initialized with success!
+
+01:36:24.012 [Information] (2) Initializating account settings
+
+01:36:24.032 [Fatal] (2) Unhandled exception, the server is going down.
+System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.Extensions.Configuration, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'. The system cannot find the file specified.
+File name: 'Microsoft.Extensions.Configuration, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'
+   at Long.Login.ServerSettings..ctor(String[] args) in C:\Users\Administrator\Desktop\v6212\src\Long.Login\ServerSettings.cs:line 10
+   at Long.Login.ServerSettings..ctor(String[] args) in C:\Users\Administrator\Desktop\v6212\src\Long.Login\ServerSettings.cs:line 10
+   at Long.Login.Program.Main(String[] args) in C:\Users\Administrator\Desktop\v6212\src\Long.Login\Program.cs:line 50
+   at Long.Login.Program.<Main>(String[] args)
+
+01:39:42.755 [Information] (2) Logger initialized with success!
+
+01:39:42.802 [Information] (2) Initializating account settings
+
+01:39:42.873 [Information] (2) Database settings: "localhost" "root" **** "account_cq"
+
+01:39:42.878 [Information] (2) Login Listener settings:
+
+01:39:42.879 [Information] (2) 	Port: 9958
+
+01:39:42.880 [Information] (2) 	Recv processors: 1
+
+01:39:42.881 [Information] (2) 	Send processors: 1
+
+01:39:42.882 [Information] (2) Game Listener settings:
+
+01:39:42.882 [Information] (2) 	Port: 9865
+
+01:39:42.883 [Information] (2) 	Recv processors: 1
+
+01:39:42.883 [Information] (2) 	Send processors: 1
+
+01:39:43.125 [Information] (2) Listening on "0.0.0.0":9958
+
+01:39:43.135 [Information] (2) Listening on "0.0.0.0":9865
+
+01:39:43.246 [Information] (2) Default Quartz.NET properties loaded from embedded resource file
+
+01:39:43.275 [Information] (2) Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+
+01:39:43.278 [Information] (2) Quartz Scheduler created
+
+01:39:43.279 [Information] (2) RAMJobStore initialized.
+
+01:39:43.280 [Information] (2) Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+
+01:39:43.280 [Information] (2) Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+
+01:39:43.281 [Information] (2) Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+
+01:39:43.286 [Information] (2) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+
+02:40:59.871 [Information] (2) Logger initialized with success!
+
+02:40:59.921 [Information] (2) Initializating account settings
+
+02:41:00.002 [Information] (2) Database settings: "localhost" "root" **** "account_cq"
+
+02:41:00.006 [Information] (2) Login Listener settings:
+
+02:41:00.007 [Information] (2) 	Port: 9958
+
+02:41:00.008 [Information] (2) 	Recv processors: 1
+
+02:41:00.008 [Information] (2) 	Send processors: 1
+
+02:41:00.009 [Information] (2) Game Listener settings:
+
+02:41:00.009 [Information] (2) 	Port: 9865
+
+02:41:00.011 [Information] (2) 	Recv processors: 1
+
+02:41:00.011 [Information] (2) 	Send processors: 1
+
+02:41:00.049 [Information] (2) Listening on "0.0.0.0":9958
+
+02:41:00.057 [Information] (2) Listening on "0.0.0.0":9865
+
+02:41:00.150 [Information] (2) Default Quartz.NET properties loaded from embedded resource file
+
+02:41:00.183 [Information] (2) Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+
+02:41:00.185 [Information] (2) Quartz Scheduler created
+
+02:41:00.186 [Information] (2) RAMJobStore initialized.
+
+02:41:00.187 [Information] (2) Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+
+02:41:00.188 [Information] (2) Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+
+02:41:00.189 [Information] (2) Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+
+02:41:00.193 [Information] (2) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+
+02:41:11.301 [Information] (2) Logger initialized with success!
+
+02:41:11.338 [Information] (2) Initializating account settings
+
+02:41:11.399 [Information] (2) Database settings: "localhost" "root" **** "account_cq"
+
+02:41:11.402 [Information] (2) Login Listener settings:
+
+02:41:11.403 [Information] (2) 	Port: 9958
+
+02:41:11.403 [Information] (2) 	Recv processors: 1
+
+02:41:11.404 [Information] (2) 	Send processors: 1
+
+02:41:11.404 [Information] (2) Game Listener settings:
+
+02:41:11.405 [Information] (2) 	Port: 9865
+
+02:41:11.405 [Information] (2) 	Recv processors: 1
+
+02:41:11.405 [Information] (2) 	Send processors: 1
+
+02:41:11.438 [Information] (2) Listening on "0.0.0.0":9958
+
+02:41:11.445 [Information] (2) Listening on "0.0.0.0":9865
+
+02:41:11.543 [Information] (2) Default Quartz.NET properties loaded from embedded resource file
+
+02:41:11.591 [Information] (2) Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+
+02:41:11.593 [Information] (2) Quartz Scheduler created
+
+02:41:11.595 [Information] (2) RAMJobStore initialized.
+
+02:41:11.596 [Information] (2) Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+
+02:41:11.598 [Information] (2) Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+
+02:41:11.599 [Information] (2) Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+
+02:41:11.609 [Information] (2) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+
+02:42:09.389 [Information] (2) Logger initialized with success!
+
+02:42:09.426 [Information] (2) Initializating account settings
+
+02:42:09.493 [Information] (2) Database settings: "localhost" "root" **** "account_cq"
+
+02:42:09.498 [Information] (2) Login Listener settings:
+
+02:42:09.499 [Information] (2) 	Port: 9958
+
+02:42:09.500 [Information] (2) 	Recv processors: 1
+
+02:42:09.500 [Information] (2) 	Send processors: 1
+
+02:42:09.502 [Information] (2) Game Listener settings:
+
+02:42:09.502 [Information] (2) 	Port: 9865
+
+02:42:09.503 [Information] (2) 	Recv processors: 1
+
+02:42:09.504 [Information] (2) 	Send processors: 1
+
+02:42:09.541 [Information] (2) Listening on "0.0.0.0":9958
+
+02:42:09.549 [Information] (2) Listening on "0.0.0.0":9865
+
+02:42:09.641 [Information] (2) Default Quartz.NET properties loaded from embedded resource file
+
+02:42:09.675 [Information] (2) Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+
+02:42:09.678 [Information] (2) Quartz Scheduler created
+
+02:42:09.679 [Information] (2) RAMJobStore initialized.
+
+02:42:09.680 [Information] (2) Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+
+02:42:09.681 [Information] (2) Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+
+02:42:09.682 [Information] (2) Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+
+02:42:09.686 [Information] (2) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+
+02:43:07.743 [Error] (9) Error on getting realm data "Access denied for user 'root'@'localhost' (using password: NO)"
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: NO)
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, String password, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 692
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 537
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 932
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 938
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 419
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 381
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Long.Database.AbstractDbContext.OnConfiguring(DbContextOptionsBuilder options) in C:\Users\Administrator\Desktop\v6212\src\Long.Database\AbstractDbContext.cs:line 19
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Long.Login.Database.Repositories.RealmRepository.GetById(Guid realmId) in C:\Users\Administrator\Desktop\v6212\src\Long.Login\Database\Repositories\RealmRepository.cs:line 14
+
+02:43:07.779 [Warning] (9) Realm 94390aa0-c75d-11ed-9586-0050560401e2 not found.
+
+02:43:07.796 [Warning] (6) Server "127.0.0.1" has disconnected.
+
+02:43:08.019 [Error] (6) Error on getting realm data "Access denied for user 'root'@'localhost' (using password: NO)"
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: NO)
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, String password, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 692
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 537
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 932
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 938
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 419
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 381
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Long.Database.AbstractDbContext.OnConfiguring(DbContextOptionsBuilder options) in C:\Users\Administrator\Desktop\v6212\src\Long.Database\AbstractDbContext.cs:line 19
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Long.Login.Database.Repositories.RealmRepository.GetById(Guid realmId) in C:\Users\Administrator\Desktop\v6212\src\Long.Login\Database\Repositories\RealmRepository.cs:line 14
+
+02:43:08.032 [Warning] (6) Realm 94390aa0-c75d-11ed-9586-0050560401e2 not found.
+
+02:43:08.033 [Warning] (9) Server "127.0.0.1" has disconnected.
+
+02:43:11.014 [Error] (12) Error on getting realm data "Access denied for user 'root'@'localhost' (using password: NO)"
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: NO)
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, String password, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 692
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 537
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 932
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 938
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 419
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 381
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Long.Database.AbstractDbContext.OnConfiguring(DbContextOptionsBuilder options) in C:\Users\Administrator\Desktop\v6212\src\Long.Database\AbstractDbContext.cs:line 19
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Long.Login.Database.Repositories.RealmRepository.GetById(Guid realmId) in C:\Users\Administrator\Desktop\v6212\src\Long.Login\Database\Repositories\RealmRepository.cs:line 14
+
+02:43:11.026 [Warning] (12) Realm 94390aa0-c75d-11ed-9586-0050560401e2 not found.
+
+02:43:11.027 [Warning] (6) Server "127.0.0.1" has disconnected.
+
+02:43:14.014 [Error] (12) Error on getting realm data "Access denied for user 'root'@'localhost' (using password: NO)"
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: NO)
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, String password, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 692
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 537
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 932
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 938
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 419
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 381
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Long.Database.AbstractDbContext.OnConfiguring(DbContextOptionsBuilder options) in C:\Users\Administrator\Desktop\v6212\src\Long.Database\AbstractDbContext.cs:line 19
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Long.Login.Database.Repositories.RealmRepository.GetById(Guid realmId) in C:\Users\Administrator\Desktop\v6212\src\Long.Login\Database\Repositories\RealmRepository.cs:line 14
+
+02:43:14.026 [Warning] (12) Realm 94390aa0-c75d-11ed-9586-0050560401e2 not found.
+
+02:43:14.027 [Warning] (6) Server "127.0.0.1" has disconnected.
+
+02:43:17.013 [Error] (12) Error on getting realm data "Access denied for user 'root'@'localhost' (using password: NO)"
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: NO)
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, String password, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 692
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 537
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 932
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 938
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 419
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 381
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Long.Database.AbstractDbContext.OnConfiguring(DbContextOptionsBuilder options) in C:\Users\Administrator\Desktop\v6212\src\Long.Database\AbstractDbContext.cs:line 19
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Long.Login.Database.Repositories.RealmRepository.GetById(Guid realmId) in C:\Users\Administrator\Desktop\v6212\src\Long.Login\Database\Repositories\RealmRepository.cs:line 14
+
+02:43:17.023 [Warning] (12) Realm 94390aa0-c75d-11ed-9586-0050560401e2 not found.
+
+02:43:17.025 [Warning] (6) Server "127.0.0.1" has disconnected.
+
+02:43:20.013 [Error] (12) Error on getting realm data "Access denied for user 'root'@'localhost' (using password: NO)"
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: NO)
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, String password, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 692
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 537
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 932
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 938
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 419
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 381
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Long.Database.AbstractDbContext.OnConfiguring(DbContextOptionsBuilder options) in C:\Users\Administrator\Desktop\v6212\src\Long.Database\AbstractDbContext.cs:line 19
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Long.Login.Database.Repositories.RealmRepository.GetById(Guid realmId) in C:\Users\Administrator\Desktop\v6212\src\Long.Login\Database\Repositories\RealmRepository.cs:line 14
+
+02:43:20.033 [Warning] (12) Realm 94390aa0-c75d-11ed-9586-0050560401e2 not found.
+
+02:43:20.035 [Warning] (6) Server "127.0.0.1" has disconnected.
+
+02:43:24.343 [Error] (6) Error on getting realm data "Access denied for user 'root'@'localhost' (using password: NO)"
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: NO)
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, String password, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 692
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 537
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 932
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 938
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 419
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 381
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Long.Database.AbstractDbContext.OnConfiguring(DbContextOptionsBuilder options) in C:\Users\Administrator\Desktop\v6212\src\Long.Database\AbstractDbContext.cs:line 19
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Long.Login.Database.Repositories.RealmRepository.GetById(Guid realmId) in C:\Users\Administrator\Desktop\v6212\src\Long.Login\Database\Repositories\RealmRepository.cs:line 14
+
+02:43:27.817 [Error] (12) Error on MsgAccount processing! "Access denied for user 'root'@'localhost' (using password: NO)"
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: NO)
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, String password, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 692
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 537
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 932
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 938
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 419
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 381
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Long.Database.AbstractDbContext.OnConfiguring(DbContextOptionsBuilder options) in C:\Users\Administrator\Desktop\v6212\src\Long.Database\AbstractDbContext.cs:line 19
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.Where[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Long.Login.Database.Repositories.AccountRepository.GetByUsername(String username) in C:\Users\Administrator\Desktop\v6212\src\Long.Login\Database\Repositories\AccountRepository.cs:line 10
+   at Long.Login.Network.Login.Packets.MsgAccount.ProcessAsync(LoginClient client) in C:\Users\Administrator\Desktop\v6212\src\Long.Login\Network\Login\Packets\MsgAccount.cs:line 62
+
+02:43:27.831 [Warning] (6) Realm 94390aa0-c75d-11ed-9586-0050560401e2 not found.
+
+02:43:27.849 [Warning] (12) Server "127.0.0.1" has disconnected.
+
+02:43:28.013 [Error] (6) Error on getting realm data "Access denied for user 'root'@'localhost' (using password: NO)"
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: NO)
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, String password, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 692
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 537
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 932
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 938
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 419
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 381
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Long.Database.AbstractDbContext.OnConfiguring(DbContextOptionsBuilder options) in C:\Users\Administrator\Desktop\v6212\src\Long.Database\AbstractDbContext.cs:line 19
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Long.Login.Database.Repositories.RealmRepository.GetById(Guid realmId) in C:\Users\Administrator\Desktop\v6212\src\Long.Login\Database\Repositories\RealmRepository.cs:line 14
+
+02:43:28.026 [Warning] (6) Realm 94390aa0-c75d-11ed-9586-0050560401e2 not found.
+
+02:43:28.027 [Warning] (6) Server "127.0.0.1" has disconnected.
+
+02:43:31.013 [Error] (10) Error on getting realm data "Access denied for user 'root'@'localhost' (using password: NO)"
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: NO)
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, String password, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 692
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 537
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 932
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 938
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 419
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 381
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Long.Database.AbstractDbContext.OnConfiguring(DbContextOptionsBuilder options) in C:\Users\Administrator\Desktop\v6212\src\Long.Database\AbstractDbContext.cs:line 19
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Long.Login.Database.Repositories.RealmRepository.GetById(Guid realmId) in C:\Users\Administrator\Desktop\v6212\src\Long.Login\Database\Repositories\RealmRepository.cs:line 14
+
+02:43:31.024 [Warning] (10) Realm 94390aa0-c75d-11ed-9586-0050560401e2 not found.
+
+02:43:31.025 [Warning] (6) Server "127.0.0.1" has disconnected.
+
+02:43:34.013 [Error] (6) Error on getting realm data "Access denied for user 'root'@'localhost' (using password: NO)"
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: NO)
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, String password, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 692
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 537
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 932
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 938
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 419
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 381
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Long.Database.AbstractDbContext.OnConfiguring(DbContextOptionsBuilder options) in C:\Users\Administrator\Desktop\v6212\src\Long.Database\AbstractDbContext.cs:line 19
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Long.Login.Database.Repositories.RealmRepository.GetById(Guid realmId) in C:\Users\Administrator\Desktop\v6212\src\Long.Login\Database\Repositories\RealmRepository.cs:line 14
+
+02:43:34.028 [Warning] (6) Realm 94390aa0-c75d-11ed-9586-0050560401e2 not found.
+
+02:43:34.029 [Warning] (9) Server "127.0.0.1" has disconnected.
+
+02:43:37.015 [Error] (9) Error on getting realm data "Access denied for user 'root'@'localhost' (using password: NO)"
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: NO)
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, String password, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 692
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 537
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 932
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 938
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 419
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 381
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Long.Database.AbstractDbContext.OnConfiguring(DbContextOptionsBuilder options) in C:\Users\Administrator\Desktop\v6212\src\Long.Database\AbstractDbContext.cs:line 19
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Long.Login.Database.Repositories.RealmRepository.GetById(Guid realmId) in C:\Users\Administrator\Desktop\v6212\src\Long.Login\Database\Repositories\RealmRepository.cs:line 14
+
+02:43:37.030 [Warning] (9) Realm 94390aa0-c75d-11ed-9586-0050560401e2 not found.
+
+02:43:37.030 [Warning] (9) Server "127.0.0.1" has disconnected.
+
+02:43:40.013 [Error] (6) Error on getting realm data "Access denied for user 'root'@'localhost' (using password: NO)"
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: NO)
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, String password, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 692
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 537
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 932
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 938
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 419
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 381
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Long.Database.AbstractDbContext.OnConfiguring(DbContextOptionsBuilder options) in C:\Users\Administrator\Desktop\v6212\src\Long.Database\AbstractDbContext.cs:line 19
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Long.Login.Database.Repositories.RealmRepository.GetById(Guid realmId) in C:\Users\Administrator\Desktop\v6212\src\Long.Login\Database\Repositories\RealmRepository.cs:line 14
+
+02:43:40.028 [Warning] (6) Realm 94390aa0-c75d-11ed-9586-0050560401e2 not found.
+
+02:43:40.029 [Warning] (9) Server "127.0.0.1" has disconnected.
+
+02:43:43.013 [Error] (6) Error on getting realm data "Access denied for user 'root'@'localhost' (using password: NO)"
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: NO)
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, String password, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 692
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 537
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 932
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 938
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 419
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 381
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Long.Database.AbstractDbContext.OnConfiguring(DbContextOptionsBuilder options) in C:\Users\Administrator\Desktop\v6212\src\Long.Database\AbstractDbContext.cs:line 19
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Long.Login.Database.Repositories.RealmRepository.GetById(Guid realmId) in C:\Users\Administrator\Desktop\v6212\src\Long.Login\Database\Repositories\RealmRepository.cs:line 14
+
+02:43:43.024 [Warning] (6) Realm 94390aa0-c75d-11ed-9586-0050560401e2 not found.
+
+02:43:43.027 [Warning] (14) Server "127.0.0.1" has disconnected.
+
+02:43:46.013 [Error] (14) Error on getting realm data "Access denied for user 'root'@'localhost' (using password: NO)"
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: NO)
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, String password, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 692
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 537
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 932
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 938
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 419
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 381
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Long.Database.AbstractDbContext.OnConfiguring(DbContextOptionsBuilder options) in C:\Users\Administrator\Desktop\v6212\src\Long.Database\AbstractDbContext.cs:line 19
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Long.Login.Database.Repositories.RealmRepository.GetById(Guid realmId) in C:\Users\Administrator\Desktop\v6212\src\Long.Login\Database\Repositories\RealmRepository.cs:line 14
+
+02:43:46.027 [Warning] (14) Realm 94390aa0-c75d-11ed-9586-0050560401e2 not found.
+
+02:43:46.029 [Warning] (14) Server "127.0.0.1" has disconnected.
+
+02:43:49.014 [Error] (6) Error on getting realm data "Access denied for user 'root'@'localhost' (using password: NO)"
+MySqlConnector.MySqlException (0x80004005): Access denied for user 'root'@'localhost' (using password: NO)
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 894
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, String password, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 692
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 537
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 932
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 938
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 419
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 381
+   at Microsoft.EntityFrameworkCore.ServerVersion.AutoDetect(String connectionString)
+   at Long.Database.AbstractDbContext.OnConfiguring(DbContextOptionsBuilder options) in C:\Users\Administrator\Desktop\v6212\src\Long.Database\AbstractDbContext.cs:line 19
+   at Microsoft.EntityFrameworkCore.DbContext.get_ContextServices()
+   at Microsoft.EntityFrameworkCore.DbContext.get_Model()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityType()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.CheckState()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.get_EntityQueryable()
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Long.Login.Database.Repositories.RealmRepository.GetById(Guid realmId) in C:\Users\Administrator\Desktop\v6212\src\Long.Login\Database\Repositories\RealmRepository.cs:line 14
+
+02:43:49.023 [Warning] (6) Realm 94390aa0-c75d-11ed-9586-0050560401e2 not found.
+
+02:43:49.025 [Warning] (9) Server "127.0.0.1" has disconnected.
+
+02:45:44.267 [Information] (2) Logger initialized with success!
+
+02:45:44.321 [Information] (2) Initializating account settings
+
+02:45:44.403 [Information] (2) Database settings: "localhost" "root" **** "account_cq"
+
+02:45:44.406 [Information] (2) Login Listener settings:
+
+02:45:44.407 [Information] (2) 	Port: 9958
+
+02:45:44.408 [Information] (2) 	Recv processors: 1
+
+02:45:44.408 [Information] (2) 	Send processors: 1
+
+02:45:44.408 [Information] (2) Game Listener settings:
+
+02:45:44.409 [Information] (2) 	Port: 9865
+
+02:45:44.410 [Information] (2) 	Recv processors: 1
+
+02:45:44.410 [Information] (2) 	Send processors: 1
+
+02:45:44.444 [Information] (2) Listening on "0.0.0.0":9958
+
+02:45:44.451 [Information] (2) Listening on "0.0.0.0":9865
+
+02:45:44.544 [Information] (2) Default Quartz.NET properties loaded from embedded resource file
+
+02:45:44.577 [Information] (2) Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+
+02:45:44.580 [Information] (2) Quartz Scheduler created
+
+02:45:44.580 [Information] (2) RAMJobStore initialized.
+
+02:45:44.581 [Information] (2) Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+
+02:45:44.582 [Information] (2) Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+
+02:45:44.583 [Information] (2) Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+
+02:45:44.587 [Information] (2) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+
+02:46:39.184 [Information] (10) Realm "Virgo" connected.
+
+02:47:02.948 [Information] (6) User "1" has logged in on realm "Virgo"
+
+02:47:44.379 [Information] (10) User "1" has logged in on realm "Virgo"
+
+02:48:00.013 [Debug] (14) User "1" login request expired.
+
+02:48:41.320 [Information] (2) Logger initialized with success!
+
+02:48:41.369 [Information] (2) Initializating account settings
+
+02:48:41.497 [Information] (2) Database settings: "localhost" "root" **** "account_cq"
+
+02:48:41.502 [Information] (2) Login Listener settings:
+
+02:48:41.503 [Information] (2) 	Port: 9958
+
+02:48:41.504 [Information] (2) 	Recv processors: 1
+
+02:48:41.509 [Information] (2) 	Send processors: 1
+
+02:48:41.509 [Information] (2) Game Listener settings:
+
+02:48:41.510 [Information] (2) 	Port: 9865
+
+02:48:41.511 [Information] (2) 	Recv processors: 1
+
+02:48:41.512 [Information] (2) 	Send processors: 1
+
+02:48:41.557 [Information] (2) Listening on "0.0.0.0":9958
+
+02:48:41.566 [Information] (2) Listening on "0.0.0.0":9865
+
+02:48:41.677 [Information] (2) Default Quartz.NET properties loaded from embedded resource file
+
+02:48:41.710 [Information] (2) Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+
+02:48:41.712 [Information] (2) Quartz Scheduler created
+
+02:48:41.714 [Information] (2) RAMJobStore initialized.
+
+02:48:41.715 [Information] (2) Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+
+02:48:41.716 [Information] (2) Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+
+02:48:41.717 [Information] (2) Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+
+02:48:41.723 [Information] (2) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+
+02:49:35.388 [Information] (9) Realm "Virgo" connected.
+
+02:50:43.366 [Information] (9) User "1" has logged in on realm "Virgo"
+
+03:01:10.599 [Warning] (9) User "1" is already awaiting for a login response.
+
+03:01:29.869 [Warning] (9) User "1" is already awaiting for a login response.
+
+03:02:42.101 [Warning] (6) User "1" is already awaiting for a login response.
+
+03:02:49.802 [Information] (2) Logger initialized with success!
+
+03:02:49.866 [Information] (2) Initializating account settings
+
+03:02:49.991 [Information] (2) Database settings: "localhost" "root" **** "account_cq"
+
+03:02:50.007 [Information] (2) Login Listener settings:
+
+03:02:50.009 [Information] (2) 	Port: 9958
+
+03:02:50.009 [Information] (2) 	Recv processors: 1
+
+03:02:50.010 [Information] (2) 	Send processors: 1
+
+03:02:50.011 [Information] (2) Game Listener settings:
+
+03:02:50.011 [Information] (2) 	Port: 9865
+
+03:02:50.012 [Information] (2) 	Recv processors: 1
+
+03:02:50.012 [Information] (2) 	Send processors: 1
+
+03:02:50.078 [Information] (2) Listening on "0.0.0.0":9958
+
+03:02:50.094 [Information] (2) Listening on "0.0.0.0":9865
+
+03:02:50.221 [Information] (2) Default Quartz.NET properties loaded from embedded resource file
+
+03:02:50.265 [Information] (2) Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+
+03:02:50.290 [Information] (2) Quartz Scheduler created
+
+03:02:50.291 [Information] (2) RAMJobStore initialized.
+
+03:02:50.293 [Information] (2) Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+
+03:02:50.294 [Information] (2) Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+
+03:02:50.296 [Information] (2) Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+
+03:02:50.302 [Information] (2) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+
+03:03:30.428 [Warning] (11) User "1" attempted to connecto to unexistent "Virgo" realm.
+
+03:03:42.103 [Warning] (11) User "1" attempted to connecto to unexistent "Virgo" realm.
+
+03:04:19.571 [Information] (8) Realm "Virgo" connected.
+
+03:04:21.865 [Information] (8) User "1" has logged in on realm "Virgo"
+
+03:04:33.863 [Information] (7) User "2" has logged in on realm "Virgo"
+
+03:05:27.284 [Information] (2) Logger initialized with success!
+
+03:05:27.321 [Information] (2) Initializating account settings
+
+03:05:27.378 [Information] (2) Database settings: "localhost" "root" **** "account_cq"
+
+03:05:27.382 [Information] (2) Login Listener settings:
+
+03:05:27.383 [Information] (2) 	Port: 9958
+
+03:05:27.383 [Information] (2) 	Recv processors: 1
+
+03:05:27.384 [Information] (2) 	Send processors: 1
+
+03:05:27.384 [Information] (2) Game Listener settings:
+
+03:05:27.385 [Information] (2) 	Port: 9865
+
+03:05:27.385 [Information] (2) 	Recv processors: 1
+
+03:05:27.387 [Information] (2) 	Send processors: 1
+
+03:05:27.418 [Information] (2) Listening on "0.0.0.0":9958
+
+03:05:27.427 [Information] (2) Listening on "0.0.0.0":9865
+
+03:05:27.516 [Information] (2) Default Quartz.NET properties loaded from embedded resource file
+
+03:05:27.549 [Information] (2) Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+
+03:05:27.551 [Information] (2) Quartz Scheduler created
+
+03:05:27.553 [Information] (2) RAMJobStore initialized.
+
+03:05:27.554 [Information] (2) Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+
+03:05:27.555 [Information] (2) Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+
+03:05:27.556 [Information] (2) Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+
+03:05:27.562 [Information] (2) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+
+03:06:20.903 [Information] (8) Realm "Virgo" connected.
+
+03:06:41.036 [Information] (2) Logger initialized with success!
+
+03:06:41.078 [Information] (2) Initializating account settings
+
+03:06:41.136 [Information] (2) Database settings: "localhost" "root" **** "account_cq"
+
+03:06:41.140 [Information] (2) Login Listener settings:
+
+03:06:41.140 [Information] (2) 	Port: 9958
+
+03:06:41.141 [Information] (2) 	Recv processors: 1
+
+03:06:41.142 [Information] (2) 	Send processors: 1
+
+03:06:41.142 [Information] (2) Game Listener settings:
+
+03:06:41.143 [Information] (2) 	Port: 9865
+
+03:06:41.143 [Information] (2) 	Recv processors: 1
+
+03:06:41.144 [Information] (2) 	Send processors: 1
+
+03:06:41.177 [Information] (2) Listening on "0.0.0.0":9958
+
+03:06:41.185 [Information] (2) Listening on "0.0.0.0":9865
+
+03:06:41.281 [Information] (2) Default Quartz.NET properties loaded from embedded resource file
+
+03:06:41.328 [Information] (2) Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+
+03:06:41.338 [Information] (2) Quartz Scheduler created
+
+03:06:41.343 [Information] (2) RAMJobStore initialized.
+
+03:06:41.344 [Information] (2) Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+
+03:06:41.345 [Information] (2) Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+
+03:06:41.346 [Information] (2) Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+
+03:06:41.353 [Information] (2) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+
+03:07:37.012 [Information] (9) Realm "Virgo" connected.
+
+03:09:14.553 [Information] (2) Logger initialized with success!
+
+03:09:14.595 [Information] (2) Initializating account settings
+
+03:09:14.655 [Information] (2) Database settings: "localhost" "root" **** "account_cq"
+
+03:09:14.658 [Information] (2) Login Listener settings:
+
+03:09:14.659 [Information] (2) 	Port: 9958
+
+03:09:14.659 [Information] (2) 	Recv processors: 1
+
+03:09:14.660 [Information] (2) 	Send processors: 1
+
+03:09:14.660 [Information] (2) Game Listener settings:
+
+03:09:14.660 [Information] (2) 	Port: 9865
+
+03:09:14.661 [Information] (2) 	Recv processors: 1
+
+03:09:14.661 [Information] (2) 	Send processors: 1
+
+03:09:14.693 [Information] (2) Listening on "0.0.0.0":9958
+
+03:09:14.699 [Information] (2) Listening on "0.0.0.0":9865
+
+03:09:14.784 [Information] (2) Default Quartz.NET properties loaded from embedded resource file
+
+03:09:14.815 [Information] (2) Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+
+03:09:14.817 [Information] (2) Quartz Scheduler created
+
+03:09:14.819 [Information] (2) RAMJobStore initialized.
+
+03:09:14.820 [Information] (2) Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+
+03:09:14.821 [Information] (2) Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+
+03:09:14.822 [Information] (2) Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+
+03:09:14.827 [Information] (2) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+
+03:32:45.753 [Information] (2) Logger initialized with success!
+
+03:32:45.794 [Information] (2) Initializating account settings
+
+03:32:45.838 [Information] (2) Database settings: "localhost" "root" **** "account_cq"
+
+03:32:45.841 [Information] (2) Login Listener settings:
+
+03:32:45.842 [Information] (2) 	Port: 9958
+
+03:32:45.842 [Information] (2) 	Recv processors: 1
+
+03:32:45.843 [Information] (2) 	Send processors: 1
+
+03:32:45.843 [Information] (2) Game Listener settings:
+
+03:32:45.843 [Information] (2) 	Port: 9865
+
+03:32:45.844 [Information] (2) 	Recv processors: 1
+
+03:32:45.844 [Information] (2) 	Send processors: 1
+
+03:32:45.863 [Information] (2) Listening on "0.0.0.0":9958
+
+03:32:45.868 [Information] (2) Listening on "0.0.0.0":9865
+
+03:32:45.929 [Information] (2) Default Quartz.NET properties loaded from embedded resource file
+
+03:32:45.952 [Information] (2) Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+
+03:32:45.953 [Information] (2) Quartz Scheduler created
+
+03:32:45.954 [Information] (2) RAMJobStore initialized.
+
+03:32:45.955 [Information] (2) Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+
+03:32:45.955 [Information] (2) Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+
+03:32:45.956 [Information] (2) Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+
+03:32:45.960 [Information] (2) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+
+03:33:37.556 [Information] (9) Realm "Virgo" connected.
+
+03:33:40.270 [Information] (9) User "2" has logged in on realm "Virgo"
+
+03:37:43.450 [Warning] (17) User "2" is already awaiting for a login response.
+
+03:37:57.132 [Information] (16) User "1" has logged in on realm "Virgo"
+
+03:40:00.789 [Information] (17) Server 3 "Virgo" has disconnected!
+
+03:40:30.866 [Information] (2) Logger initialized with success!
+
+03:40:30.895 [Information] (2) Initializating account settings
+
+03:40:30.932 [Information] (2) Database settings: "localhost" "root" **** "account_cq"
+
+03:40:30.935 [Information] (2) Login Listener settings:
+
+03:40:30.936 [Information] (2) 	Port: 9958
+
+03:40:30.936 [Information] (2) 	Recv processors: 1
+
+03:40:30.937 [Information] (2) 	Send processors: 1
+
+03:40:30.937 [Information] (2) Game Listener settings:
+
+03:40:30.937 [Information] (2) 	Port: 9865
+
+03:40:30.938 [Information] (2) 	Recv processors: 1
+
+03:40:30.938 [Information] (2) 	Send processors: 1
+
+03:40:30.957 [Information] (2) Listening on "0.0.0.0":9958
+
+03:40:30.962 [Information] (2) Listening on "0.0.0.0":9865
+
+03:40:31.023 [Information] (2) Default Quartz.NET properties loaded from embedded resource file
+
+03:40:31.046 [Information] (2) Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+
+03:40:31.047 [Information] (2) Quartz Scheduler created
+
+03:40:31.048 [Information] (2) RAMJobStore initialized.
+
+03:40:31.048 [Information] (2) Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+
+03:40:31.049 [Information] (2) Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+
+03:40:31.050 [Information] (2) Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+
+03:40:31.054 [Information] (2) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+
+03:41:21.813 [Information] (9) Realm "Virgo" connected.
+
+03:41:31.544 [Information] (11) User "1" has logged in on realm "Virgo"
+
+03:42:22.967 [Information] (2) Logger initialized with success!
+
+03:42:22.998 [Information] (2) Initializating account settings
+
+03:42:23.030 [Information] (2) Database settings: "localhost" "root" **** "account_cq"
+
+03:42:23.033 [Information] (2) Login Listener settings:
+
+03:42:23.034 [Information] (2) 	Port: 9958
+
+03:42:23.034 [Information] (2) 	Recv processors: 1
+
+03:42:23.035 [Information] (2) 	Send processors: 1
+
+03:42:23.035 [Information] (2) Game Listener settings:
+
+03:42:23.035 [Information] (2) 	Port: 9865
+
+03:42:23.036 [Information] (2) 	Recv processors: 1
+
+03:42:23.037 [Information] (2) 	Send processors: 1
+
+03:42:23.056 [Information] (2) Listening on "0.0.0.0":9958
+
+03:42:23.061 [Information] (2) Listening on "0.0.0.0":9865
+
+03:42:23.126 [Information] (2) Default Quartz.NET properties loaded from embedded resource file
+
+03:42:23.149 [Information] (2) Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+
+03:42:23.150 [Information] (2) Quartz Scheduler created
+
+03:42:23.151 [Information] (2) RAMJobStore initialized.
+
+03:42:23.152 [Information] (2) Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+
+03:42:23.153 [Information] (2) Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+
+03:42:23.154 [Information] (2) Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+
+03:42:23.158 [Information] (2) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+
+03:43:13.414 [Information] (12) Realm "Virgo" connected.
+
+03:43:51.851 [Information] (13) User "1" has logged in on realm "Virgo"
+
+03:46:30.898 [Information] (13) User "1" has logged in on realm "Virgo"
+
+03:47:51.411 [Warning] (9) User "2" has attempted to login with an invalid password.
+
+03:48:04.062 [Information] (12) User "2" has logged in on realm "Virgo"
+
+03:49:05.529 [Information] (15) User "1" has logged in on realm "Virgo"
+
+03:50:29.560 [Information] (17) User "1" has logged in on realm "Virgo"
+
+03:51:10.307 [Information] (16) User "1" has logged in on realm "Virgo"
+
+03:51:54.919 [Information] (16) User "1" has logged in on realm "Virgo"
+
+03:54:41.827 [Information] (17) User "1" has logged in on realm "Virgo"
+
+03:58:37.009 [Information] (16) User "1" has logged in on realm "Virgo"
+
+04:00:12.320 [Information] (13) User "1" has logged in on realm "Virgo"
+
+04:01:25.722 [Information] (11) User "1" has logged in on realm "Virgo"
+
+04:05:30.366 [Information] (12) User "1" has logged in on realm "Virgo"
+
+04:06:57.767 [Information] (17) User "1" has logged in on realm "Virgo"
+
+04:10:08.076 [Information] (13) User "1" has logged in on realm "Virgo"
+
+04:14:07.308 [Information] (17) User "1" has logged in on realm "Virgo"
+
+04:58:42.114 [Information] (12) User "1" has logged in on realm "Virgo"
+
+05:02:32.784 [Information] (11) User "1" has logged in on realm "Virgo"
+
+05:06:00.046 [Information] (9) User "1" has logged in on realm "Virgo"
+
+05:07:43.207 [Information] (13) User "1" has logged in on realm "Virgo"
+
+05:16:03.138 [Information] (2) Logger initialized with success!
+
+05:16:03.190 [Information] (2) Initializating account settings
+
+05:16:03.267 [Information] (2) Database settings: "localhost" "root" **** "account_cq"
+
+05:16:03.272 [Information] (2) Login Listener settings:
+
+05:16:03.273 [Information] (2) 	Port: 9958
+
+05:16:03.273 [Information] (2) 	Recv processors: 1
+
+05:16:03.274 [Information] (2) 	Send processors: 1
+
+05:16:03.275 [Information] (2) Game Listener settings:
+
+05:16:03.275 [Information] (2) 	Port: 9865
+
+05:16:03.277 [Information] (2) 	Recv processors: 1
+
+05:16:03.277 [Information] (2) 	Send processors: 1
+
+05:16:03.354 [Information] (2) Listening on "0.0.0.0":9958
+
+05:16:03.364 [Information] (2) Listening on "0.0.0.0":9865
+
+05:16:03.475 [Information] (2) Default Quartz.NET properties loaded from embedded resource file
+
+05:16:03.513 [Information] (2) Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+
+05:16:03.515 [Information] (2) Quartz Scheduler created
+
+05:16:03.517 [Information] (2) RAMJobStore initialized.
+
+05:16:03.518 [Information] (2) Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+
+05:16:03.519 [Information] (2) Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+
+05:16:03.520 [Information] (2) Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+
+05:16:03.526 [Information] (2) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+
+05:16:58.431 [Information] (13) Realm "Virgo" connected.
+
+05:16:58.643 [Information] (9) User "1" has logged in on realm "Virgo"
+
+05:36:58.371 [Information] (2) Logger initialized with success!
+
+05:36:58.408 [Information] (2) Initializating account settings
+
+05:36:58.469 [Information] (2) Database settings: "localhost" "root" **** "account_cq"
+
+05:36:58.472 [Information] (2) Login Listener settings:
+
+05:36:58.473 [Information] (2) 	Port: 9958
+
+05:36:58.474 [Information] (2) 	Recv processors: 1
+
+05:36:58.474 [Information] (2) 	Send processors: 1
+
+05:36:58.475 [Information] (2) Game Listener settings:
+
+05:36:58.475 [Information] (2) 	Port: 9865
+
+05:36:58.476 [Information] (2) 	Recv processors: 1
+
+05:36:58.476 [Information] (2) 	Send processors: 1
+
+05:36:58.510 [Information] (2) Listening on "0.0.0.0":9958
+
+05:36:58.517 [Information] (2) Listening on "0.0.0.0":9865
+
+05:36:58.610 [Information] (2) Default Quartz.NET properties loaded from embedded resource file
+
+05:36:58.668 [Information] (2) Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+
+05:36:58.677 [Information] (2) Quartz Scheduler created
+
+05:36:58.678 [Information] (2) RAMJobStore initialized.
+
+05:36:58.679 [Information] (2) Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+
+05:36:58.680 [Information] (2) Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+
+05:36:58.682 [Information] (2) Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+
+05:36:58.689 [Information] (2) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+
+05:37:54.261 [Information] (9) Realm "Virgo" connected.
+
+05:37:54.474 [Information] (8) User "1" has logged in on realm "Virgo"
+
+05:41:12.353 [Information] (2) Logger initialized with success!
+
+05:41:12.398 [Information] (2) Initializating account settings
+
+05:41:12.461 [Information] (2) Database settings: "localhost" "root" **** "account_cq"
+
+05:41:12.465 [Information] (2) Login Listener settings:
+
+05:41:12.466 [Information] (2) 	Port: 9958
+
+05:41:12.466 [Information] (2) 	Recv processors: 1
+
+05:41:12.467 [Information] (2) 	Send processors: 1
+
+05:41:12.467 [Information] (2) Game Listener settings:
+
+05:41:12.468 [Information] (2) 	Port: 9865
+
+05:41:12.469 [Information] (2) 	Recv processors: 1
+
+05:41:12.471 [Information] (2) 	Send processors: 1
+
+05:41:12.503 [Information] (2) Listening on "0.0.0.0":9958
+
+05:41:12.509 [Information] (2) Listening on "0.0.0.0":9865
+
+05:41:12.595 [Information] (2) Default Quartz.NET properties loaded from embedded resource file
+
+05:41:12.629 [Information] (2) Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+
+05:41:12.632 [Information] (2) Quartz Scheduler created
+
+05:41:12.633 [Information] (2) RAMJobStore initialized.
+
+05:41:12.634 [Information] (2) Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+
+05:41:12.635 [Information] (2) Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+
+05:41:12.636 [Information] (2) Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+
+05:41:12.642 [Information] (2) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+
+05:42:07.454 [Information] (10) Realm "Virgo" connected.
+
+05:42:36.299 [Information] (8) User "1" has logged in on realm "Virgo"
+
+05:43:50.252 [Warning] (8) User "1" is already awaiting for a login response.
+
+05:44:01.390 [Warning] (8) User "1" is already awaiting for a login response.
+
+05:44:13.961 [Warning] (12) User "1" is already awaiting for a login response.
+
+05:44:27.128 [Warning] (8) User "1" is already awaiting for a login response.
+
+05:45:16.786 [Warning] (3) User "1" is already awaiting for a login response.
+
+05:45:25.087 [Information] (2) Logger initialized with success!
+
+05:45:25.128 [Information] (2) Initializating account settings
+
+05:45:25.188 [Information] (2) Database settings: "localhost" "root" **** "account_cq"
+
+05:45:25.192 [Information] (2) Login Listener settings:
+
+05:45:25.193 [Information] (2) 	Port: 9958
+
+05:45:25.194 [Information] (2) 	Recv processors: 1
+
+05:45:25.194 [Information] (2) 	Send processors: 1
+
+05:45:25.194 [Information] (2) Game Listener settings:
+
+05:45:25.195 [Information] (2) 	Port: 9865
+
+05:45:25.195 [Information] (2) 	Recv processors: 1
+
+05:45:25.196 [Information] (2) 	Send processors: 1
+
+05:45:25.234 [Information] (2) Listening on "0.0.0.0":9958
+
+05:45:25.242 [Information] (2) Listening on "0.0.0.0":9865
+
+05:45:25.333 [Information] (2) Default Quartz.NET properties loaded from embedded resource file
+
+05:45:25.385 [Information] (2) Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+
+05:45:25.403 [Information] (2) Quartz Scheduler created
+
+05:45:25.408 [Information] (2) RAMJobStore initialized.
+
+05:45:25.410 [Information] (2) Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+
+05:45:25.411 [Information] (2) Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+
+05:45:25.412 [Information] (2) Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+
+05:45:25.417 [Information] (2) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+
+05:46:03.214 [Warning] (6) User "1" attempted to connecto to unexistent "Virgo" realm.
+
+05:46:19.217 [Information] (12) Realm "Virgo" connected.
+
+05:46:43.313 [Information] (6) User "1" has logged in on realm "Virgo"
+
+05:50:41.928 [Error] (8) Error on processing login message. "Value cannot be null. (Parameter 'input')"
+System.ArgumentNullException: Value cannot be null. (Parameter 'input')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Guid.Parse(String input)
+   at Long.Network.Packets.Login.MsgLoginUserExchangeEx`1.LoginExchangeData.get_RequestGuid() in C:\Users\Administrator\Desktop\v6212\src\Long.Network\Packets\Login\MsgLoginUserExchangeEx.cs:line 29
+   at Long.Login.Network.Game.Packets.MsgLoginUserExchangeEx.ProcessAsync(GameClient client) in C:\Users\Administrator\Desktop\v6212\src\Long.Login\Network\Game\Packets\MsgLoginUserExchangeEx.cs:line 14
+   at Long.Login.Network.Game.GameServerSocket.ProcessAsync(GameClient actor, Byte[] message) in C:\Users\Administrator\Desktop\v6212\src\Long.Login\Network\Game\GameServerSocket.cs:line 95
+
+05:51:39.614 [Information] (2) Logger initialized with success!
+
+05:51:39.663 [Information] (2) Initializating account settings
+
+05:51:39.731 [Information] (2) Database settings: "localhost" "root" **** "account_cq"
+
+05:51:39.734 [Information] (2) Login Listener settings:
+
+05:51:39.735 [Information] (2) 	Port: 9958
+
+05:51:39.736 [Information] (2) 	Recv processors: 1
+
+05:51:39.737 [Information] (2) 	Send processors: 1
+
+05:51:39.737 [Information] (2) Game Listener settings:
+
+05:51:39.739 [Information] (2) 	Port: 9865
+
+05:51:39.739 [Information] (2) 	Recv processors: 1
+
+05:51:39.740 [Information] (2) 	Send processors: 1
+
+05:51:39.778 [Information] (2) Listening on "0.0.0.0":9958
+
+05:51:39.787 [Information] (2) Listening on "0.0.0.0":9865
+
+05:51:39.938 [Information] (2) Default Quartz.NET properties loaded from embedded resource file
+
+05:51:39.977 [Information] (2) Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+
+05:51:39.979 [Information] (2) Quartz Scheduler created
+
+05:51:39.981 [Information] (2) RAMJobStore initialized.
+
+05:51:39.982 [Information] (2) Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+
+05:51:39.983 [Information] (2) Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+
+05:51:39.984 [Information] (2) Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+
+05:51:39.988 [Information] (2) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+
+05:52:34.286 [Information] (10) Realm "Virgo" connected.
+
+05:53:08.859 [Information] (10) User "1" has logged in on realm "Virgo"
+
+06:02:28.583 [Warning] (16) User "1" is already awaiting for a login response.
+
+06:02:55.479 [Error] (16) Error on processing login message. "Value cannot be null. (Parameter 'input')"
+System.ArgumentNullException: Value cannot be null. (Parameter 'input')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Guid.Parse(String input)
+   at Long.Network.Packets.Login.MsgLoginUserExchangeEx`1.LoginExchangeData.get_RequestGuid() in C:\Users\Administrator\Desktop\v6212\src\Long.Network\Packets\Login\MsgLoginUserExchangeEx.cs:line 29
+   at Long.Login.Network.Game.Packets.MsgLoginUserExchangeEx.ProcessAsync(GameClient client) in C:\Users\Administrator\Desktop\v6212\src\Long.Login\Network\Game\Packets\MsgLoginUserExchangeEx.cs:line 14
+   at Long.Login.Network.Game.GameServerSocket.ProcessAsync(GameClient actor, Byte[] message) in C:\Users\Administrator\Desktop\v6212\src\Long.Login\Network\Game\GameServerSocket.cs:line 95
+
+06:03:30.324 [Information] (2) Logger initialized with success!
+
+06:03:30.364 [Information] (2) Initializating account settings
+
+06:03:30.436 [Information] (2) Database settings: "localhost" "root" **** "account_cq"
+
+06:03:30.440 [Information] (2) Login Listener settings:
+
+06:03:30.441 [Information] (2) 	Port: 9958
+
+06:03:30.445 [Information] (2) 	Recv processors: 1
+
+06:03:30.446 [Information] (2) 	Send processors: 1
+
+06:03:30.450 [Information] (2) Game Listener settings:
+
+06:03:30.452 [Information] (2) 	Port: 9865
+
+06:03:30.453 [Information] (2) 	Recv processors: 1
+
+06:03:30.454 [Information] (2) 	Send processors: 1
+
+06:03:30.526 [Information] (2) Listening on "0.0.0.0":9958
+
+06:03:30.549 [Information] (2) Listening on "0.0.0.0":9865
+
+06:03:30.650 [Information] (2) Default Quartz.NET properties loaded from embedded resource file
+
+06:03:30.683 [Information] (2) Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+
+06:03:30.690 [Information] (2) Quartz Scheduler created
+
+06:03:30.691 [Information] (2) RAMJobStore initialized.
+
+06:03:30.692 [Information] (2) Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+
+06:03:30.693 [Information] (2) Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+
+06:03:30.694 [Information] (2) Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+
+06:03:30.699 [Information] (2) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+
+06:04:12.809 [Warning] (9) User "1" attempted to connecto to unexistent "Virgo" realm.
+
+06:04:25.340 [Information] (9) Realm "Virgo" connected.
+
+06:04:58.897 [Information] (9) User "1" has logged in on realm "Virgo"
+
+06:07:09.557 [Information] (16) User "1" has logged in on realm "Virgo"
+
+06:21:57.699 [Information] (2) Logger initialized with success!
+
+06:21:57.736 [Information] (2) Initializating account settings
+
+06:21:57.798 [Information] (2) Database settings: "localhost" "root" **** "account_cq"
+
+06:21:57.802 [Information] (2) Login Listener settings:
+
+06:21:57.803 [Information] (2) 	Port: 9958
+
+06:21:57.804 [Information] (2) 	Recv processors: 1
+
+06:21:57.804 [Information] (2) 	Send processors: 1
+
+06:21:57.805 [Information] (2) Game Listener settings:
+
+06:21:57.805 [Information] (2) 	Port: 9865
+
+06:21:57.807 [Information] (2) 	Recv processors: 1
+
+06:21:57.808 [Information] (2) 	Send processors: 1
+
+06:21:57.844 [Information] (2) Listening on "0.0.0.0":9958
+
+06:21:57.851 [Information] (2) Listening on "0.0.0.0":9865
+
+06:21:57.946 [Information] (2) Default Quartz.NET properties loaded from embedded resource file
+
+06:21:58.012 [Information] (2) Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+
+06:21:58.015 [Information] (2) Quartz Scheduler created
+
+06:21:58.020 [Information] (2) RAMJobStore initialized.
+
+06:21:58.021 [Information] (2) Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+
+06:21:58.024 [Information] (2) Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+
+06:21:58.025 [Information] (2) Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+
+06:21:58.032 [Information] (2) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+
+06:22:08.622 [Warning] (9) User "1" attempted to connecto to unexistent "Virgo" realm.
+
+06:22:51.813 [Information] (11) Realm "Virgo" connected.
+
+06:23:53.072 [Information] (6) User "1" has logged in on realm "Virgo"
+
+08:16:21.391 [Information] (2) Logger initialized with success!
+
+08:16:21.466 [Information] (2) Initializating account settings
+
+08:16:21.551 [Information] (2) Database settings: "localhost" "root" **** "account_cq"
+
+08:16:21.554 [Information] (2) Login Listener settings:
+
+08:16:21.554 [Information] (2) 	Port: 9958
+
+08:16:21.555 [Information] (2) 	Recv processors: 1
+
+08:16:21.556 [Information] (2) 	Send processors: 1
+
+08:16:21.556 [Information] (2) Game Listener settings:
+
+08:16:21.557 [Information] (2) 	Port: 9865
+
+08:16:21.557 [Information] (2) 	Recv processors: 1
+
+08:16:21.558 [Information] (2) 	Send processors: 1
+
+08:16:21.595 [Information] (2) Listening on "0.0.0.0":9958
+
+08:16:21.605 [Information] (2) Listening on "0.0.0.0":9865
+
+08:16:21.708 [Information] (2) Default Quartz.NET properties loaded from embedded resource file
+
+08:16:21.769 [Information] (2) Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+
+08:16:21.782 [Information] (2) Quartz Scheduler created
+
+08:16:21.784 [Information] (2) RAMJobStore initialized.
+
+08:16:21.785 [Information] (2) Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+
+08:16:21.786 [Information] (2) Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+
+08:16:21.788 [Information] (2) Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+
+08:16:21.792 [Information] (2) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+
+08:17:16.461 [Information] (9) Realm "Virgo" connected.
+
+08:18:06.043 [Information] (10) User "1" has logged in on realm "Virgo"
+
+08:30:20.794 [Warning] (17) User "1" is already awaiting for a login response.
+
+08:32:05.640 [Warning] (19) User "1" is already awaiting for a login response.
+
+08:32:31.507 [Warning] (19) User "1" is already awaiting for a login response.
+
+08:32:59.433 [Warning] (22) User "1" is already awaiting for a login response.
+
+08:33:34.797 [Warning] (21) User "1" is already awaiting for a login response.
+
+09:41:26.000 [Debug] (8) User "1" login request expired.
+
+09:41:45.215 [Error] (8) ReceivingAsync Socket Exception
+System.Net.Sockets.SocketException (10060): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at Long.Network.Sockets.TcpServerListener`1.ReceivingAsync(Object state, Int32 remaining) in C:\Users\Administrator\Desktop\v6212\src\Long.Network\Sockets\TcpServerListener.cs:line 425
+
+20:44:30.618 [Warning] (10) Packet[MsgAuthentication] Length[324] not handled by server, from "45.99.138.86".
+
+20:48:47.106 [Information] (11) User "1" has logged in on realm "Virgo"
+
+21:03:17.378 [Information] (3) User "1" has logged in on realm "Virgo"
+
+21:10:07.391 [Information] (2) Logger initialized with success!
+
+21:10:07.432 [Information] (2) Initializating account settings
+
+21:10:07.960 [Information] (2) Database settings: "localhost" "root" **** "account_cq"
+
+21:10:07.965 [Information] (2) Login Listener settings:
+
+21:10:07.967 [Information] (2) 	Port: 9958
+
+21:10:07.968 [Information] (2) 	Recv processors: 1
+
+21:10:18.292 [Information] (2) 	Send processors: 1
+
+21:10:18.293 [Information] (2) Game Listener settings:
+
+21:10:18.294 [Information] (2) 	Port: 9865
+
+21:10:18.295 [Information] (2) 	Recv processors: 1
+
+21:10:18.295 [Information] (2) 	Send processors: 1
+
+21:10:18.505 [Information] (2) Listening on "0.0.0.0":9958
+
+21:10:18.514 [Information] (2) Listening on "0.0.0.0":9865
+
+21:10:18.596 [Information] (2) Default Quartz.NET properties loaded from embedded resource file
+
+21:10:18.625 [Information] (2) Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+
+21:10:18.627 [Information] (2) Quartz Scheduler created
+
+21:10:18.629 [Information] (2) RAMJobStore initialized.
+
+21:10:18.630 [Information] (2) Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+
+21:10:18.631 [Information] (2) Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+
+21:10:18.632 [Information] (2) Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+
+21:10:18.637 [Information] (2) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+
+21:11:16.116 [Information] (12) Realm "Virgo" connected.
+
+21:14:36.476 [Information] (9) User "1" has logged in on realm "Virgo"
+
+22:28:46.287 [Information] (4) User "1" has logged in on realm "Virgo"
+
+22:33:27.489 [Information] (10) User "1" has logged in on realm "Virgo"
+
+22:33:57.236 [Information] (9) User "1" has logged in on realm "Virgo"
+
+22:35:02.131 [Information] (9) User "1" has logged in on realm "Virgo"
+
+22:35:44.121 [Information] (2) Logger initialized with success!
+
+22:35:44.174 [Information] (2) Initializating account settings
+
+22:35:44.272 [Information] (2) Database settings: "localhost" "root" **** "account_cq"
+
+22:35:44.279 [Information] (2) Login Listener settings:
+
+22:35:44.283 [Information] (2) 	Port: 9958
+
+22:35:44.284 [Information] (2) 	Recv processors: 1
+
+22:35:44.286 [Information] (2) 	Send processors: 1
+
+22:35:44.287 [Information] (2) Game Listener settings:
+
+22:35:44.288 [Information] (2) 	Port: 9865
+
+22:35:44.289 [Information] (2) 	Recv processors: 1
+
+22:35:44.289 [Information] (2) 	Send processors: 1
+
+22:35:44.333 [Information] (2) Listening on "0.0.0.0":9958
+
+22:35:44.345 [Information] (2) Listening on "0.0.0.0":9865
+
+22:35:44.454 [Information] (2) Default Quartz.NET properties loaded from embedded resource file
+
+22:35:44.493 [Information] (2) Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+
+22:35:44.496 [Information] (2) Quartz Scheduler created
+
+22:35:44.498 [Information] (2) RAMJobStore initialized.
+
+22:35:44.499 [Information] (2) Quartz Scheduler 3.9.0.0 - 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED' initialized
+
+22:35:44.500 [Information] (2) Using thread pool 'Quartz.Simpl.DefaultThreadPool', size: 10
+
+22:35:44.501 [Information] (2) Using job store 'Quartz.Simpl.RAMJobStore', supports persistence: False, clustered: False
+
+22:35:44.507 [Information] (2) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+
+22:36:29.151 [Warning] (9) User "1" attempted to connecto to unexistent "Virgo" realm.
+
+22:36:38.533 [Information] (13) Realm "Virgo" connected.
+
+22:37:01.040 [Information] (13) User "1" has logged in on realm "Virgo"
+
+22:53:59.804 [Information] (10) User "1" has logged in on realm "Virgo"
+

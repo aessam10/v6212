@@ -7,6 +7,7 @@ using Long.Network.Packets;
 using System.Drawing;
 using Long.Kernel.States.User;
 using Long.Kernel.States.Registration;
+using Long.Kernel.Security.MsgLoader;
 
 namespace Long.Kernel.Network.Game
 {
@@ -22,8 +23,13 @@ namespace Long.Kernel.Network.Game
         {
             NdDiffieHellman = new NDDiffieHellman();
             GUID = Guid.NewGuid();
+            Guard = new GuardShield(this);
         }
-
+        public GuardShield Guard { get; set; }
+        public bool ActiveClient { get; set; }
+        public DateTime LoaderTime { get; set; }
+        public bool TerminateLoader { get; set; }
+        public Dictionary<uint, QueryProcess> QueryProcessList { get; set; } = new Dictionary<uint, QueryProcess>();
         public NDDiffieHellman NdDiffieHellman { get; set; }
         public uint Identity => Character?.Identity ?? 0;
         public uint AccountIdentity { get; set; }

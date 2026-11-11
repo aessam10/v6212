@@ -61,7 +61,9 @@ namespace Long.Game
                 await ServerStatisticManager.InitializeAsync();
 
                 gameServerSocket = new GameServerSocket(serverSettings);
-                _ = gameServerSocket.StartAsync(serverSettings.Game.Port, serverSettings.Game.IPAddress);
+                // listen on every interface: binding to Game.IPAddress closed the port when that IP was
+                // not on the machine, and 127.0.0.1 there opened it only inside the VPS
+                _ = gameServerSocket.StartAsync(serverSettings.Game.Port, "0.0.0.0");
 
                 crossServerListener = new CrossServerListener();
                 _ = crossServerListener.StartAsync(serverSettings.Cross.ListenPort, serverSettings.Cross.IPAddress);

@@ -1,0 +1,159 @@
+svchost.exe,svchost.exe,e364b8d9,3815028953,3815028953
+igfxEM.exe,igfxEM.exe,5fbc37cc,1606170572,1606170572
+explorer.exe,Program Manager,2d637127,761491751,761491751
+CrossDeviceResume.exe,CrossDeviceResume.exe,8d915c8f,2375113871,2375113871
+SearchHost.exe,SearchHost.exe,d2631e24,3529711140,3529711140
+StartMenuExperienceHost.exe,StartMenuExperienceHost.exe,96d8224c,2530746956,2530746956
+WidgetBoard.exe,WidgetBoard.exe,a0e0b9ba,2699082170,2699082170
+WidgetService.exe,WidgetService.exe,4416caa4,1142344356,1142344356
+msedgewebview2.exe,msedgewebview2.exe,14594f8e,341397390,341397390
+MicrosoftStartFeedProvider.exe,MicrosoftStartFeedProvider.exe,17a7ac67,396864615,396864615
+SpotifyLauncher.exe,SpotifyLauncher.exe,82768a46,2188806726,2188806726
+crashpad_handler.exe,crashpad_handler.exe,dc643510,3697554704,3697554704
+TextInputHost.exe,Windows Input Experience,59fd6e1f,1509781023,1509781023
+ShellExperienceHost.exe,ShellExperienceHost.exe,1b7df38b,461239179,461239179
+RtkAudUService64.exe,RtkAudUService64.exe,d6e897a4,3605567396,3605567396
+Discord.exe,@Aviator - Discord,bee22cf1,3202493681,3202493681
+iCloudServices.exe,iCloudServices.exe,78f9adfb,572371738,2029628923
+APSDaemon.exe,APSDaemon.exe,afd2dc88,1460808916,2949831816
+wps.exe,wps.exe,c9c709f4,3385264628,3385264628
+secd.exe,secd.exe,bfb8bdd6,38074782,3216555478
+ApplePhotoStreams.exe,ApplePhotoStreams.exe,1791fcdb,572371738,395443419
+iCloudDrive.exe,iCloudDrive.exe,faa614b0,572371738,4205188272
+iCloudPhotos.exe,iCloudPhotos.exe,fdfd9de1,572371738,4261256673
+GeminiAppLauncher.exe,GeminiAppLauncher.exe,27cdc7e2,667797474,667797474
+GeminiCrashpadHandler.exe,GeminiCrashpadHandler.exe,c642a075,3326255221,3326255221
+FxSound.exe,FxSound.exe,76d251e7,1993495015,1993495015
+CCXProcess.exe,CCXProcess.exe,52983f83,1385709443,1385709443
+node.exe,node.exe,df978dd9,3751251417,3751251417
+AdobeIPCBroker.exe,AdobeIPCBroker.exe,2a1ada77,1601123090,706402935
+Adobe Crash Processor.exe,Adobe Crash Processor.exe,3822720f,941781519,941781519
+Everything.exe,MsgOpenedProcesses - Everything,643465fb,3249036334,1681155579
+Antigravity.exe,Antigravity.exe,73adc751,1940768593,1940768593
+language_server.exe,language_server.exe,7be80f13,2078805779,2078805779
+Notepad.exe,lua.ini - Notepad,a9c6bb7e,2848373630,2848373630
+SystemSettings.exe,Settings,8845418b,2286240139,2286240139
+msedge.exe,New tab and 6 more pages - Profile 1 - Microsoft,14594f8e,341397390,341397390
+SnippingTool.exe,SnippingTool.exe,303c8e62,809274978,809274978
+WhatsApp.Root.exe,WhatsApp,12a4e9e2,312797666,312797666
+PushNotificationsLongRunningTask.exe,PushNotificationsLongRunningTask.exe,d54f66f1,3578750705,3578750705
+notepad++.exe,D:\LegendsSource\MsgLoader_LongKernel\README_INSTALL.md - Notepad++,ba62bda6,3127033254,3127033254
+PhoneExperienceHost.exe,PhoneExperienceHost.exe,b3933e32,3012771378,3012771378
+SNAPOS64.exe,SNAPOS64.exe,241dc2ba,605930170,605930170
+ida.exe,IDA - Conquer.exe D:\6256\Conquer.exe,d95148d3,3645982931,3645982931
+SpotifyXboxGamebarWebView.exe,SpotifyXboxGamebarWebView.exe,cced6360,3438109536,3438109536
+XboxPcAppFT.exe,XboxPcAppFT.exe,352be2a9,892068521,892068521
+OneDrive.exe,OneDrive.exe,129586d1,311789265,311789265
+OneDrive.Sync.Service.exe,OneDrive.Sync.Service.exe,331141d2,856768978,856768978
+MoNotificationUx.exe,MoNotificationUx.exe,fa83ff88,4202954632,4202954632
+DecryptedIPAddress.exe,DecryptedIPAddress.exe,8ef61184,2398491012,2398491012
+OpenConsole.exe,OpenConsole.exe,25fbe63c,637265468,637265468
+WindowsTerminal.exe,ConsoleApp13,648c0e4c,1686900300,1686900300
+backgroundTaskHost.exe,backgroundTaskHost.exe,51a08a7b,1369475707,1369475707
+MySQLInstallerConsole.exe,MySQLInstallerConsole.exe,5a57ddc0,1515707840,1515707840
+wpscloudsvr.exe,wpscloudsvr.exe,1b21a500,455189760,455189760
+promecefpluginhost.exe,promecefpluginhost.exe,d6938622,3599992354,3599992354
+brave.exe,brave.exe,691f9b26,1763679014,1763679014
+mstsc.exe,51.68.35.139 - Remote Desktop Connection,40ded3a7,1088344999,1088344999
+AppleIEDAV.exe,AppleIEDAV.exe,b4db4a33,572371738,3034270259
+devenv.exe,Long - MsgOpenedProcesses.cs - Microsoft Visual Studio Insiders,8beb25f0,2347443696,2347443696
+PerfWatson2.exe,PerfWatson2.exe,d8b9a21e,3636044318,3636044318
+DevHub.exe,DevHub.exe,8e61684d,2388748365,2388748365
+copilot-language-server.exe,copilot-language-server.exe,b1b1ce1,186326241,186326241
+ServiceHub.IntellicodeModelService.exe,ServiceHub.IntellicodeModelService.exe,f0606c2e,4032850990,4032850990
+vshost.exe,vshost.exe,6c468f0b,1816563467,1816563467
+vcpkgsrv.exe,vcpkgsrv.exe,2fe50514,662922479,803538196
+msvsmon.exe,msvsmon.exe,bce639f1,1239282703,3169204721
+Conquer.exe,DebugConsole,fb6f7030,3019606418,4218384432
+msvsmon.exe,msvsmon.exe,3dacac1a,1034726426,1034726426
+GameBar.exe,GameBar.exe,3ff55dba,1073044922,1073044922
+GameBarFTServer.exe,GameBarFTServer.exe,3b39619a,993616282,993616282
+XboxGameBarWidgets.exe,XboxGameBarWidgets.exe,d4202e82,3558878850,3558878850
+LockApp.exe,LockApp.exe,29df9fac,702521260,702521260
+devenv.exe,GuardShield_6256 (Running) - CMsgClient.cpp - Microsoft Visual Studio Insiders,8beb25f0,2347443696,2347443696
+MSBuild.exe,MSBuild.exe,bd8faa66,3180309094,3180309094
+mspdbsrv.exe,mspdbsrv.exe,cb77434a,4280585677,3413590858
+msvsmon.exe,msvsmon.exe,e7f77eb0,1239282703,3891756720
+Conquer.exe,[Conquer] King-Dragon-Warrior,fb6f7030,3019606418,4218384432
+IntelCpHDCPSvc.exe,IntelCpHDCPSvc.exe,bf88bb7a,3213409146,3213409146
+NVDisplay.Container.exe,NVDisplay.Container.exe,ccf5c01,214916097,214916097
+AsusCertService.exe,AsusCertService.exe,457c6a31,1165781553,1165781553
+AsusOptimization.exe,AsusOptimization.exe,449e5c32,1151228978,1151228978
+ArmouryCrate.Service.exe,ArmouryCrate.Service.exe,7a4a0533,2051671347,2051671347
+C-MediaAudioService.exe,C-MediaAudioService.exe,d17a6713,3514459923,3514459923
+AsusSoftwareManager.exe,AsusSoftwareManager.exe,f21be141,4061913409,4061913409
+AsusSystemAnalysis.exe,AsusSystemAnalysis.exe,ad5b8740,2908456768,2908456768
+AsusAppService.exe,AsusAppService.exe,ae3f4525,2923382053,2923382053
+AsusSwitch.exe,AsusSwitch.exe,d146024d,3511026253,3511026253
+AsusSystemDiagnosis.exe,AsusSystemDiagnosis.exe,6c142ac9,1813261001,1813261001
+OneApp.IGCC.WinService.exe,OneApp.IGCC.WinService.exe,b5a72a53,3047631443,3047631443
+ipfsvc.exe,ipfsvc.exe,5b88b61,95980385,95980385
+nvcontainer.exe,nvcontainer.exe,4487ecc6,1149758662,1149758662
+mysqld.exe,mysqld.exe,d215181a,3524597786,3524597786
+pg_ctl.exe,pg_ctl.exe,a3bf61af,2747228591,2747228591
+ROGLiveService.exe,ROGLiveService.exe,166344c7,375604423,375604423
+RvControlSvc.exe,RvControlSvc.exe,9c0d7ea7,2748245493,2618130087
+TbtP2pShortcutService.exe,TbtP2pShortcutService.exe,341b9345,874222405,874222405
+ipf_uf.exe,ipf_uf.exe,376db477,929936503,929936503
+sqlwriter.exe,sqlwriter.exe,1e36759b,506885531,506885531
+TeamViewer_Service.exe,TeamViewer_Service.exe,a1962837,2710972471,2710972471
+WMIRegistrationService.exe,WMIRegistrationService.exe,c08e093b,1305255987,3230533947
+jhi_service.exe,jhi_service.exe,d2fb4afc,3539684092,3539684092
+postgres.exe,postgres.exe,db1b987a,3676018810,3676018810
+crashpad_handler.exe,crashpad_handler.exe,b33e011,187949073,187949073
+WmiPrvSE.exe,WmiPrvSE.exe,f8157fba,4162158522,4162158522
+wlanext.exe,wlanext.exe,ad759803,2910164995,2910164995
+Intel_PIE_Service.exe,Intel_PIE_Service.exe,39c12b56,968960854,968960854
+sqlservr.exe,sqlservr.exe,6cc08df8,1824558584,1824558584
+sqlceip.exe,sqlceip.exe,66b2ea23,1723001379,1723001379
+FileSyncHelper.exe,FileSyncHelper.exe,e8b1d41e,3903968286,3903968286
+OfficeClickToRun.exe,OfficeClickToRun.exe,6593ff66,1704197990,1704197990
+SearchIndexer.exe,SearchIndexer.exe,c453eb8e,3293834126,3293834126
+ipf_helper.exe,ipf_helper.exe,65a32e7d,1705193085,1705193085
+AsusOptimizationStartupTask.exe,AsusOptimizationStartupTask.exe,6df4c0d9,1844756697,1844756697
+ArmouryCrate.UserSessionHelper.exe,ArmouryCrate.UserSessionHelper.exe,f1c33979,4056103289,4056103289
+ASUSSmartDisplayControl.exe,ASUSSmartDisplayControl.exe,87d2cdc9,1996918347,2278739401
+AcPowerNotification.exe,AcPowerNotification.exe,e4ae22d2,3836617426,3836617426
+nvsphelper64.exe,nvsphelper64.exe,e42094a,239208778,239208778
+NVIDIA Overlay.exe,NVIDIA GeForce Overlay,af20ef0d,2938171149,2938171149
+CrossDeviceService.exe,CrossDeviceService.exe,b3933e32,3012771378,3012771378
+ArmouryCrate.exe,ArmouryCrate.exe,685bb726,1750841126,1750841126
+ctfmon.exe,ctfmon.exe,bc659321,3160773409,3160773409
+ArmourySocketServer.exe,ArmourySocketServer.exe,b51ef3ba,3038704570,3038704570
+asus_framework.exe,asus_framework.exe,ae17147f,1690087415,2920748159
+IDMan.exe,IDMan.exe,5d8609bb,251092968,1569065403
+Discord.exe,@BlackOps - Discord,2c0a7077,738881655,738881655
+codex-windows-sandbox-service.exe,codex-windows-sandbox-service.exe,7127dd42,1898437954,1898437954
+ms-teams.exe,ms-teams.exe,ff0609ae,4278585774,4278585774
+AsusOSD.exe,AsusOSD.exe,b5354645,1705214585,3040167493
+Reverso.exe,Reverso.exe,bc143bb0,3155442608,3155442608
+CMediaAudioControlPanel.exe,CMediaAudioControlPanel.exe,e1a0e9fa,3785419258,3785419258
+ChatGPT Classic.exe,ChatGPT Classic.exe,9439dde8,2486820328,2486820328
+WhatsApp.Root.exe,WhatsApp.Root.exe,12a4e9e2,312797666,312797666
+ChatGPT.exe,ChatGPT.exe,bce2042,198058050,198058050
+codex.exe,codex.exe,1d0f8c09,487558153,487558153
+codex-computer-use-swift.exe,codex-computer-use-swift.exe,ee6f9d45,4000292165,4000292165
+node.exe,node.exe,ad240156,2904818006,2904818006
+ONENOTEM.EXE,ONENOTEM.EXE,d42fa8b4,3559893172,3559893172
+USBGuard.exe,USBGuard.exe,99590d5a,2572750170,2572750170
+RvRvpnGui.exe,Radmin VPN,9a578896,2357043953,2589427862
+WindowsTerminal.exe,WindowsTerminal.exe,648c0e4c,1686900300,1686900300
+FileCoAuth.exe,FileCoAuth.exe,b8095bd6,3087621078,3087621078
+AppActions.exe,AppActions.exe,e1c18bf,236722367,236722367
+EdgeGameAssist.exe,EdgeGameAssist.exe,b99c887c,3114043516,3114043516
+XboxPcAppFT.exe,XboxPcAppFT.exe,b6318f74,3056701300,3056701300
+AsusSoftwareManagerAgent.exe,AsusSoftwareManagerAgent.exe,26a42b3d,648293181,648293181
+claude.exe,claude.exe,c2072b49,3255249737,3255249737
+powershell.exe,powershell.exe,4d112234,1292968500,1292968500
+chrome.exe,New session - Claude - Google Chrome,67155e97,1729453719,1729453719
+cmd.exe,cmd.exe,554ee457,1431233623,1431233623
+dllhost.exe,dllhost.exe,cc456844,3427100740,3427100740
+dotnet.exe,dotnet.exe,472ca973,1194109299,1194109299
+VBCSCompiler.exe,VBCSCompiler.exe,b3933e32,3012771378,3012771378
+XboxGameBarWidgets.exe,XboxGameBarWidgets.exe,f190fa39,4052810297,4052810297
+msedge.exe,msedge.exe,14594f8e,341397390,341397390
+GUP.exe,Notepad++ Update Available,9c6cc72d,2624374573,2624374573
+SearchProtocolHost.exe,SearchProtocolHost.exe,31721119,829559065,829559065
+Discord.exe,Discord.exe,2c0a7077,738881655,738881655
+node.exe,node.exe,4bd5be62,1272299106,1272299106
+chrome.exe,chrome.exe,,0,0

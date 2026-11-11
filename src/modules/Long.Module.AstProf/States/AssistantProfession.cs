@@ -204,7 +204,7 @@ namespace Long.Module.AstProf.States
 
         public int GetPower(AstProfType type)
         {
-            return AstProfManager.GetPower(type, AstProfManager.GetRank(user, type));
+            return 0;
         }
 
         public int GetLevel(AstProfType type)

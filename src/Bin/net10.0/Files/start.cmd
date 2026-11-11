@@ -1,0 +1,1 @@
+start Conquer.exe blacknull
